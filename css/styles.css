@@ -57,8 +57,9 @@ padding: 0;
     padding: 10px 15px;
     font-weight: inherit;
 }
-.nav_items--cta{
+.nav_items:hover{
     border: 1px solid #ffffff;
+    font-size: 18px;
 }
 .nav__items--footer{
     border: 10px;
@@ -123,6 +124,9 @@ color: #fff;
     text-decoration: none;
     padding: var(--boton-padding);
     border-radius: 40px ;
+}
+.presentation__cta:hover{
+background-color: #ccc;
 }
 .about{
     min-height: 400px;
